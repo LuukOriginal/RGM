@@ -2,7 +2,7 @@
   "name": "robloxgamemanager",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.LuukOriginal.xyz",
+  "homepage": "https://luukoriginal.github.io/RobloxGameManager/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
@@ -17,7 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -b build -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
