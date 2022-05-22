@@ -1,0 +1,39 @@
+/* -------------Seperators------------- */
+hr {
+    border: 0;
+}
+
+/* Dashed border */
+hr.dashed {
+    border-top: 1px dashed;
+}
+  
+/* Dotted border */
+hr.dotted {
+    border-top: 1px dotted;
+}
+
+/* Solid border */
+hr.solid {
+    border-top: 1px solid;
+}
+
+/* Rounded border */
+hr.rounded {
+    border-top: 1px solid;
+    border-radius: 5px;
+}
+
+/* -------------Buttons------------- */
+
+/* Buttons */
+.btn {
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    cursor: pointer;
+}

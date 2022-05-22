@@ -1,0 +1,38 @@
+.theme-dark {
+    --primary: #602DD3;
+    --background-primary: #161F29;
+    --background-secondary: #0D1218;
+    --background-secondary-hover: #111820;
+    --text: #fff;
+    --text-muted: #828282;
+    --seperator: #575757;
+}
+
+.primary {
+    background-color: var(--background-primary);
+}
+
+.secondairy {
+    background-color: var(--background-secondary);
+}
+
+.btn, .primary {
+    /* background-color: var(--primary); */
+}
+
+.muted {
+    color: var(--text-muted);
+}
+
+.bold {
+    font-weight: 500;
+}
+
+body {
+    background-color: var(--background-primary);
+    color: var(--text)
+}
+
+hr {
+   color: var(--seperator)
+}
